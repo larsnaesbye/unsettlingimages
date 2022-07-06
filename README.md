@@ -23,6 +23,7 @@ Zuck[<B>Mark Zuckerberg</B><BR />CEO, Meta<BR />Not Lizard];
 Sored[<B>Jacky Sored</B><BR />Leader of RALLY]
 Humphrey[<B>Humphrey</B><BR />Duck]
 PotatoLady[<B>Potato Lady</B>]
+William[<B>William</B>]
 
 Zuck --- London
 Baudouin --- Lair
@@ -49,6 +50,7 @@ Sharpe --> |Protege| Manuel
 Sharpe --> |Mentor| Cleve
 Sharpe --> |Responsibility| Brian
 Sharpe --> |Favourite| Hunters
+Sharpe --> |Guru| William
 
 RALLY --> |Mentor| Manuel
 Takana --> |Favourite| Brian
