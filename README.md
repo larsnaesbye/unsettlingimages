@@ -18,13 +18,11 @@ Takana[<B>Takana</B>];
 TheTruth[<B>The Truth</B>];
 Baudouin[<B>Baudouin</B><BR />Voodoo Priest];
 Hunters[<B>Hunter's Point</B>];
+London[<B>London Breed</B><BR />Mayor of SF];
+Zuck[<B>Mark Zuckerberg</B><BR />CEO, Meta<BR />Not Lizard];
 
-
-Corey --> |Responsibility| Sharpe
-Corey --> |Guru| Geoff
-Corey --> |Mentor| Autumn
-Corey --> |Favourite| Heinolds
-Corey --> |Protege| Brian
+Zuck --- London
+Baudouin --- Lair
 
 Brian --> |Guru| Sharpe
 Brian --> |Mentor| TheTruth
@@ -36,16 +34,19 @@ Cleve --> |Mentor| Sharpe
 Cleve --> |Guru| Heinolds
 Cleve --> |Favourite| TheTruth
 
+Corey --> |Responsibility| Sharpe
+Corey --> |Guru| Geoff
+Corey --> |Mentor| Autumn
+Corey --> |Favourite| Heinolds
+Corey --> |Protege| Brian
+
 Sharpe --> |Protege| Manuel
 Sharpe --> |Mentor| Cleve
 Sharpe --> |Responsibility| Brian
 Sharpe --> |Favourite| Hunters
 
-
 RALLY --> |Mentor| Manuel
 Takana --> |Favourite| Brian
 TheTruth --> |Mentor| Cleve
-
-Baudouin --- Lair
 
 ```
