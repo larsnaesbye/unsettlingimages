@@ -17,11 +17,14 @@ RatKing[<B>Rat King</B>];
 Takana[<B>Takana</B>];
 TheTruth[<B>The Truth</B>];
 Baudouin[<B>Baudouin</B><BR />Voodoo Priest];
+Hunters[<B>Hunter's Point</B>];
+
 
 Corey --> |Responsibility| Sharpe
 Corey --> |Guru| Geoff
 Corey --> |Mentor| Autumn
 Corey --> |Favourite| Heinolds
+Corey --> |Protege| Brian
 
 Brian --> |Guru| Sharpe
 Brian --> |Mentor| TheTruth
@@ -29,15 +32,20 @@ Brian --> |Favourite| Corey
 
 Cleve --> |Protege| Corey
 Cleve --> |Responsibility| RatKing
-Cleve --> |Mentor| Heinolds
-Cleve --> |Guru| Sharpe
-Cleve --> |Mentor| TheTruth
+Cleve --> |Mentor| Sharpe
+Cleve --> |Guru| Heinolds
+Cleve --> |Favourite| TheTruth
 
 Sharpe --> |Protege| Manuel
 Sharpe --> |Mentor| Cleve
+Sharpe --> |Responsibility| Brian
+Sharpe --> |Favourite| Hunters
+
 
 RALLY --> |Mentor| Manuel
 Takana --> |Favourite| Brian
-TheTruth --> |Favourite| Cleve
+TheTruth --> |Mentor| Cleve
+
+Baudouin --- Lair
 
 ```
