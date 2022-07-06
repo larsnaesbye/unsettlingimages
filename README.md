@@ -14,7 +14,7 @@ Lair[<B>Lair</B>];
 Manuel[<B>Manuel</B>];
 RALLY[<B>RALLY</B>];
 RatKing[<B>Rat King</B>];
-Takana[<B>Takana</B>];
+Takana[<B>Takana</B><BR />Cliomancer?];
 TheTruth[<B>The Truth</B>];
 Baudouin[<B>Baudouin</B><BR />Voodoo Priest];
 Hunters[<B>Hunter's Point</B>];
