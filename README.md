@@ -20,10 +20,11 @@ Baudouin[<B>Baudouin</B><BR />Voodoo Priest];
 Hunters[<B>Hunter's Point</B>];
 London[<B>London Breed</B><BR />Mayor of SF];
 Zuck[<B>Mark Zuckerberg</B><BR />CEO, Meta<BR />Not Lizard];
+Sored[<B>Jacky Sored</B><BR />Leader of RALLY]
 
 Zuck --- London
 Baudouin --- Lair
-
+Sored --- RALLY
 Brian --> |Guru| Sharpe
 Brian --> |Mentor| TheTruth
 Brian --> |Favourite| Corey
