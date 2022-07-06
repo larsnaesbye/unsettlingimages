@@ -1,0 +1,58 @@
+# https://dreampuf.github.io/GraphvizOnline/
+# engine: circo
+
+digraph G {
+    graph [pad="0.5", nodesep="1", ranksep="2"];
+    splines="false";
+bgcolor=floralwhite;
+fontname="Roboto Slab"
+label=<<FONT POINT-SIZE="30">Unsettling Images</FONT>>;
+labelloc=t
+    node [shape=ellipse,style=filled,fillcolor=lightgoldenrod1,fontname="Roboto"];
+
+"Brian"[fillcolor=lightblue,label=<<B>Brian</B><BR />Taxi driver, veteran>]
+"Cleve"[fillcolor=lightblue,label=<<B>Cleve</B><BR />Repairman>]
+"Corey"[fillcolor=lightblue,label=<<B>Corey</B><BR />Alien Hunter, diver>]
+"Sharpe"[fillcolor=lightblue,label=<<B>Sharpe</B><BR />Gym instructor, parkour>]
+
+"Autumn Adamme"
+"Geoff Matthews"
+"Heinold's First and Last Chance Saloon"
+"Lair"
+"Manuel"
+"RALLY"
+"Rat King"
+"Takana"
+"The Truth"
+"Voodoo Priest Baudouin"
+
+"Corey" -> "Sharpe" [label=responsibility]
+"Corey" -> "Geoff Matthews" [label=guru]
+"Corey" -> "Autumn Adamme" [label=mentor]
+"Corey" -> "Heinold's First and Last Chance Saloon" [label=favourite]
+"Corey" -> "Brian" [label=protege]
+
+"Brian" -> "Sharpe" [label=guru]
+"Brian" -> "The Truth" [label=mentor]
+"Brian" -> "Corey" [label=favourite]
+
+"Cleve" -> "Corey" [label=protege]
+"Cleve" -> "Rat King" [label=responsibility]
+"Cleve" -> "Heinold's First and Last Chance Saloon" [label=mentor]
+
+"Cleve" -> "Sharpe" [label=guru]
+"Cleve" -> "The Truth" [label=mentor]
+
+"Sharpe" -> "Manuel" [label=protege]
+"Sharpe" -> "Cleve" [label=mentor]
+
+
+"The Truth" -> "Cleve" [label=favourite]
+
+
+"Takana" -> "Brian" [label=favourite]
+
+"Voodoo Priest Baudouin" -> "Lair" [dir=both]
+
+"RALLY" -> "Manuel" [label=mentor]
+}
