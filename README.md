@@ -9,14 +9,15 @@ Corey[<B>Corey</B><BR />Alien Hunter, diver]
 Sharpe[<B>Sharpe</B><BR />Gym instructor, parkourier]
 Autumn[<B>Autumn Adamme</B><BR />Vestimancer];
 Geoff[<B>Geoff Matthews</B><BR />Astronomer]
-Heinolds[<B>Heinold's First and Last Chance Saloon</B>];
+Heinolds[<B>Heinold's First and Last Chance Saloon</B><BR />Dive bar];
 Lair[<B>Lair</B>];
 Manuel[<B>Manuel</B>];
 RALLY[<B>RALLY</B>];
 RatKing[<B>Rat King</B>];
-Takana[<B>Takana</B><BR />Cliomancer?];
+Takana[<B>Takana</B><BR />Cliomancer];
 TheTruth[<B>The Truth</B>];
 Baudouin[<B>Baudouin</B><BR />Voodoo Priest];
+Secretary[<B>Secretary</B>];
 Hunters[<B>Hunter's Point</B>];
 London[<B>London Breed</B><BR />Mayor of SF];
 Zuck[<B>Mark Zuckerberg</B><BR />CEO, Meta<BR />Not Lizard];
@@ -27,6 +28,8 @@ William[<B>William</B>]
 
 Zuck --- London
 Baudouin --- Lair
+Secretary --- Lair
+Baudouin --- Secretary
 Sored --- RALLY
 Humphrey --- PotatoLady
 
