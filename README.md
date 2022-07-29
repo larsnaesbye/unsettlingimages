@@ -1,4 +1,4 @@
-## Unsettling images
+## Unsettling images connectogram
 
 ```mermaid
 %%{init: {'theme':'synthwave'}}}%%
